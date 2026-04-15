@@ -2,7 +2,7 @@
 <suite name="Appium Suite">
     <test name="Login Test">
         <classes>
-            <class name="Base.LoginTest"/>
+            <class name="tests.LoginTest"/>
         </classes>
     </test>
 </suite>
