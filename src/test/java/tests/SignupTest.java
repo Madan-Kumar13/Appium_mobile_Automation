@@ -28,18 +28,12 @@ public class SignupTest extends BaseTest {
         signup.enterPassword(password);
         signup.clickContinue(); // goes to DOB page
 
-        // =====================================================
+
         // ✅ DOB AUTOMATION
-        // =====================================================
+
         DOBPage dobPage = new DOBPage(driver);
         dobPage.setDobAndContinue("Mar", 16, 2010);
 
-        // =====================================================
-        // 🔥 OTP FLOW (FIXED)
-        // =====================================================
-
-        // ❌ REMOVE THIS (not reliable)
-        // Thread.sleep(2000);
 
         // ✅ Use RETRY method (IMPORTANT)
         OtpService.sendOtp(email); // 🔥 trigger OTP
