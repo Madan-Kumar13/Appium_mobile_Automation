@@ -1,8 +1,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Appium Suite">
-    <test name="Login Test">
+    <test name="All Tests">
         <classes>
-            <class name="tests.LoginTest"/>
-        </classes>
+        <class name="tests.SignupTest"/>
+<!--        <class name="tests.LoginTest"/> -->
+    </classes>
     </test>
 </suite>
