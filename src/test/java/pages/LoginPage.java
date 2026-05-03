@@ -30,5 +30,6 @@ public class LoginPage extends BasePage {
         } catch (Exception e) {}
 
         click(loginButton);
+
     }
 }
